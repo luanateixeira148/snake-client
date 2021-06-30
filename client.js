@@ -19,6 +19,17 @@ const connect = function() {
     conn.write('Name: LuT');
   });
 
+  // conn.on('connect', function(){
+  //   setTimeout(function() {
+  //     conn.write('Move: up');
+  //   }, 100);
+
+  //   setTimeout(function() {
+  //     conn.write('Move: right');
+  //   }, 400);
+
+  // });
+
   return conn;
 };
 
